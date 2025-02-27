@@ -10,9 +10,13 @@ This MCP Server provides an LLM interface for getting the current time from the 
 ./mvnw clean package
 ```
 
+Alternatively, you can download the pre-built server from the [Releases](https://github.com/cpage-pivotal/time-mcp/releases/tag/1.0.0-snapshot) page.
+
 ## Configuration
 
-You will need to supply a configuration for the server for your MCP Client. Here's what the configuration looks like for [claude_desktop_config.json](https://modelcontextprotocol.io/quickstart/user):
+You will need to supply a configuration for the server for your MCP Client. To run the Claude Desktop client on OSX, you will edit the config file at `~/Library/Application\ Support/Claude/claude_desktop_config.json`
+
+Here's what the configuration looks like for [claude_desktop_config.json](https://modelcontextprotocol.io/quickstart/user):
 
 ```
 {
